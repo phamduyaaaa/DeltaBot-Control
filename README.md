@@ -17,15 +17,27 @@ rf = 170.0 (Chiều dài thanh nối trên)
 
 </div>
    
-#define DIR1 29   
-#define PWM1 9   
-#define EN1 27   
-#define DIR2 35   
-#define PWM2 7   
-#define EN2 33   
-#define DIR3 37   
-#define PWM3 5   
-#define EN3 31   
+// === Khai báo các chân điều khiển động cơ ===   
+const int stepPins[3] = {2, 6, 10};   // Chân điều khiển bước   
+const int dirPins[3]  = {3, 7, 11};   // Chân điều khiển hướng   
+const int enablePins[3] = {4, 8, 12}; // Chân điều khiển bật/tắt động cơ   
+   
+// === Thay thế các #define chân điều khiển động cơ ===   
+   
+// Động cơ 1   
+#define DIR1 dirPins[0]   // Chân điều khiển hướng của động cơ 1   
+#define PWM1 stepPins[0]  // Chân điều khiển bước (PWM) của động cơ 1   
+#define EN1 enablePins[0] // Chân điều khiển bật/tắt của động cơ 1   
+   
+// Động cơ 2   
+#define DIR2 dirPins[1]   // Chân điều khiển hướng của động cơ 2   
+#define PWM2 stepPins[1]  // Chân điều khiển bước (PWM) của động cơ 2   
+#define EN2 enablePins[1] // Chân điều khiển bật/tắt của động cơ 2   
+   
+// Động cơ 3   
+#define DIR3 dirPins[2]   // Chân điều khiển hướng của động cơ 3   
+#define PWM3 stepPins[2]  // Chân điều khiển bước (PWM) của động cơ 3   
+#define EN3 enablePins[2] // Chân điều khiển bật/tắt của động cơ 3   
    
 <div align="center">
 
