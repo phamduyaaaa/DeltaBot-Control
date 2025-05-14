@@ -65,9 +65,9 @@
 
 </div>
 
-`#define switch1Pin 50   
-#define switch2Pin 41   
-#define switch3Pin 39`   
+`#define switch1Pin 50`   
+`#define switch2Pin 41`   
+`#define switch3Pin 39`   
    
 <div align="center">
 
@@ -75,10 +75,10 @@
 
 </div>
    
-`FuzzySet *e_N = new FuzzySet(-1, -1, -0.5, 0.01);   
-FuzzySet *e_P = new FuzzySet(-0.01, 0.5, 1, 1);   
-FuzzySet *de_N = new FuzzySet(-1, -1, -0.5, 0.25);   
-FuzzySet *de_P = new FuzzySet(-0.25, 0.50, 1, 1);`   
+`FuzzySet *e_N = new FuzzySet(-1, -1, -0.5, 0.01);`   
+`FuzzySet *e_P = new FuzzySet(-0.01, 0.5, 1, 1);`   
+`FuzzySet *de_N = new FuzzySet(-1, -1, -0.5, 0.25);`   
+`FuzzySet *de_P = new FuzzySet(-0.25, 0.50, 1, 1);`   
    
 <div align="center">
 
