@@ -88,5 +88,21 @@
 
 `float CPR_ENCODER = 4000;`   
 
+<div align="center">
 
+<h1 style="font-size: 50px;">Tài liệu liên quan ⚡</h1>
 
+</div>
+
+#### Hướng dẫn tunning bằng phần mềm ProTuner
+
+```bash
+https://www.youtube.com/watch?v=VYcZFncjUj8&t=240s
+```
+
+#### Link tải phần mềm ProTuner 
+##### ProTuner_HBS_Setup_2012_05_28.zip, ProTuner_HBS_Setup_2012-12-14.zip, HBS_English_setup 2013-03-22.rar ✅
+
+```bash
+https://mecheltron.com/en/software-archive?utm_source=chatgpt.com
+```
