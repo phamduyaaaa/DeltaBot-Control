@@ -6,7 +6,7 @@
 
 </div>
 
-#### Động cơ Hybird Servi Leadshine 2Nm 573HBM20-1000   
+#### Động cơ Hybird Servo Leadshine 2Nm 573HBM20-1000   
 #### Driver HBS507 (Điều chỉnh bằng ProTuner)   
    
 <div align="center">
